@@ -1,0 +1,508 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cc3ca12c344b323fc2a0741b31edb444",
+    "content-hash": "ee81815b7d7b45c687f7e17953577540",
+    "packages": [
+        {
+            "name": "soloproyectos-php/array",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/array.git",
+                "reference": "611a65d6c7be1cdd09e5570696acc442e7e95f05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/array/zipball/611a65d6c7be1cdd09e5570696acc442e7e95f05",
+                "reference": "611a65d6c7be1cdd09e5570696acc442e7e95f05",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing arrays. This library is part of the SoloProyectos PHP API.",
+            "time": "2015-10-09 18:55:52"
+        },
+        {
+            "name": "soloproyectos-php/css",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/css.git",
+                "reference": "ed413e2b97e3a0a43d804243328d9926e0cb5114"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/css/zipball/ed413e2b97e3a0a43d804243328d9926e0cb5114",
+                "reference": "ed413e2b97e3a0a43d804243328d9926e0cb5114",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing CSS expressions. This library is part of the SoloProyectos PHP API.",
+            "time": "2015-10-09 19:09:45"
+        },
+        {
+            "name": "soloproyectos-php/css-parser",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/css-parser.git",
+                "reference": "e93ff7c9eb721a95223f8b0c3faf67c16f68f4b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/css-parser/zipball/e93ff7c9eb721a95223f8b0c3faf67c16f68f4b3",
+                "reference": "e93ff7c9eb721a95223f8b0c3faf67c16f68f4b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/array": "~1.0",
+                "soloproyectos-php/css": "~1.0",
+                "soloproyectos-php/dom": "~2.0",
+                "soloproyectos-php/text-parser": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing CSS expressions. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:06:39"
+        },
+        {
+            "name": "soloproyectos-php/db",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/db.git",
+                "reference": "8451a04a97d5dce1ab0a68d7b6b31d8a85e9abff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/db/zipball/8451a04a97d5dce1ab0a68d7b6b31d8a85e9abff",
+                "reference": "8451a04a97d5dce1ab0a68d7b6b31d8a85e9abff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/event": "~1.0",
+                "soloproyectos-php/text": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "Database library. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:07:21"
+        },
+        {
+            "name": "soloproyectos-php/db-record",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/db-record.git",
+                "reference": "0d64608edfebeb16126952dbc4b68eb43b04e7e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/db-record/zipball/0d64608edfebeb16126952dbc4b68eb43b04e7e4",
+                "reference": "0d64608edfebeb16126952dbc4b68eb43b04e7e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/array": "~1.0",
+                "soloproyectos-php/db": "~1.1",
+                "soloproyectos-php/text": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "Manage database records. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:09:47"
+        },
+        {
+            "name": "soloproyectos-php/dom",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/dom.git",
+                "reference": "9acc22b7f6c1fac3be99f6ddc215989aeb62328f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/dom/zipball/9acc22b7f6c1fac3be99f6ddc215989aeb62328f",
+                "reference": "9acc22b7f6c1fac3be99f6ddc215989aeb62328f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing DOM documents. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-03-29 17:02:02"
+        },
+        {
+            "name": "soloproyectos-php/dom-node",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/dom-node.git",
+                "reference": "52646af917f7bdbe317912a0d539a86f265f6722"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/dom-node/zipball/52646af917f7bdbe317912a0d539a86f265f6722",
+                "reference": "52646af917f7bdbe317912a0d539a86f265f6722",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/array": "~1.0",
+                "soloproyectos-php/css-parser": "~1.0",
+                "soloproyectos-php/dom": "~2.0",
+                "soloproyectos-php/text": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing DOM documents. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-02 15:46:17"
+        },
+        {
+            "name": "soloproyectos-php/event",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/event.git",
+                "reference": "55054d91bc38dc9c2908b6901e943877332eacca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/event/zipball/55054d91bc38dc9c2908b6901e943877332eacca",
+                "reference": "55054d91bc38dc9c2908b6901e943877332eacca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing events. This library is part of the SoloProyectos PHP API.",
+            "time": "2015-10-09 19:16:10"
+        },
+        {
+            "name": "soloproyectos-php/http",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/http.git",
+                "reference": "ab01178d58db4c9e8a8f62e92a83c455a76dc6f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/http/zipball/ab01178d58db4c9e8a8f62e92a83c455a76dc6f3",
+                "reference": "ab01178d58db4c9e8a8f62e92a83c455a76dc6f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/array": "~1.0",
+                "soloproyectos-php/text": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library to interact with the HTTP protocol. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:11:29"
+        },
+        {
+            "name": "soloproyectos-php/http-controller",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/http-controller.git",
+                "reference": "7dbaab1a1f5673d8e4aa1be6cd144e96b9a18fb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/http-controller/zipball/7dbaab1a1f5673d8e4aa1be6cd144e96b9a18fb6",
+                "reference": "7dbaab1a1f5673d8e4aa1be6cd144e96b9a18fb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/event": "~1.0",
+                "soloproyectos-php/http": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A simple HTTP Controller. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:12:05"
+        },
+        {
+            "name": "soloproyectos-php/text",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/text.git",
+                "reference": "a51ad4b2b60be8e8fd8e1924512a4f0b56c6c12d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/text/zipball/a51ad4b2b60be8e8fd8e1924512a4f0b56c6c12d",
+                "reference": "a51ad4b2b60be8e8fd8e1924512a4f0b56c6c12d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for managing texts. This library is part of the SoloProyectos PHP API.",
+            "time": "2015-10-09 19:27:02"
+        },
+        {
+            "name": "soloproyectos-php/text-parser",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/text-parser.git",
+                "reference": "e6d02ccbaf6a9d2b0b1aa7e7a1d25aac483be278"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/text-parser/zipball/e6d02ccbaf6a9d2b0b1aa7e7a1d25aac483be278",
+                "reference": "e6d02ccbaf6a9d2b0b1aa7e7a1d25aac483be278",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "soloproyectos-php/text": "~1.0",
+                "soloproyectos-php/text-tokenizer": "~1.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library for parsing strings. This library is part of the SoloProyectos PHP API.",
+            "time": "2016-04-01 18:28:24"
+        },
+        {
+            "name": "soloproyectos-php/text-tokenizer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soloproyectos-php/text-tokenizer.git",
+                "reference": "7593fa6d120f8c2174a6781cbe2c0b2e5fe9094d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soloproyectos-php/text-tokenizer/zipball/7593fa6d120f8c2174a6781cbe2c0b2e5fe9094d",
+                "reference": "7593fa6d120f8c2174a6781cbe2c0b2e5fe9094d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "php-library",
+            "autoload": {
+                "psr-4": {
+                    "soloproyectos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A library to split a string into smaller tokens. This library is part of the SoloProyectos PHP API.",
+            "time": "2015-10-09 19:28:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">5.5"
+    },
+    "platform-dev": []
+}
