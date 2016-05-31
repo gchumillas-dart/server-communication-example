@@ -41,7 +41,7 @@ The server-side application uses [Composer](https://getcomposer.org/) as package
 > composer install
 ```
 
-Finally, test it in your browser:
+Finally, test it in your browser (change `yourdomain` by `localhost` if you are working locally):
 
 `http://yourdomain/<path-to-server-folder>/list.php`
 
@@ -49,7 +49,7 @@ If all went well, you will see an XML document showing the list of table recods.
 
 ## Install the client-side application
 
-Copy the `client/web/config-sample.json` file to `client/web/config.json` and change the `server` parameter:
+Copy the `client/web/config-sample.json` file to `client/web/config.json` and change the `server` parameter (change `yourdomain` by `localhost` if you are working locally):
 
 ```json
 {
