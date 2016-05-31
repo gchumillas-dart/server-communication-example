@@ -27,7 +27,7 @@ The server-side application uses `composer` as package manager. Change to the se
 > composer install
 ```
 
-Finally, test it:
+Finally, test it in your browser:
 
 http://yourdomain/<path-to-server-folder>/list.php
 
