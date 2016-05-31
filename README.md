@@ -16,7 +16,7 @@ https://github.com/soloproyectos-docs/google-dart
 
 ## Create the database
 
-Create a MySQL datatabase and import the database.sql script included in this repository. You can do this from any MySQL interface, like phpMyAdmin, or directly from command line:
+Create a MySQL datatabase and import the `database.sql` script included in this repository. You can do this from any MySQL interface, like phpMyAdmin, or directly from command line:
 
 ```bash
 # creates the database structure
@@ -25,7 +25,7 @@ Create a MySQL datatabase and import the database.sql script included in this re
 
 ## Install the server-side application
 
-The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under /var/www), copy the server/config-php file to server/config.php and change the parameters properly.
+The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under `/var/www`), copy the `server/config-php` file to `server/config.php` and change the parameters properly.
 
 The server-side application uses [Composer](https://getcomposer.org/) as package manager. Change to the server folder and install the required PHP libraries:
 
@@ -43,7 +43,7 @@ If all went well, you will see an XML document showing the list of table recods.
 
 ## Install the client-side application
 
-Copy the client/web/config-sample.json file to client/web/config.json and change the `server` parameter:
+Copy the `client/web/config-sample.json` file to `client/web/config.json` and change the `server` parameter:
 
 ```json
 {
