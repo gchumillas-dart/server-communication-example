@@ -45,4 +45,5 @@ Open the command line prompt, navigate to the client folder, install dependencie
 ```
 
 And finally open the following url in your Dartium browser:
+
 http://localhost:8080
