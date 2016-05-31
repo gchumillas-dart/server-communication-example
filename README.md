@@ -23,7 +23,7 @@ The server-side is installed as a typical web application (Apache + MySQL + PHP)
 The server-side application uses `composer` as package manager. Change to the server folder and install the required libraries:
 
 ```bash
-> cd /path/to/server/folder
+> cd <path-to-server-folder>
 > composer install
 ```
 
@@ -47,7 +47,7 @@ Open the command line prompt, navigate to the client folder, install dependencie
 
 ```bash
 # change to client folder and gets dependencies
-> cd /path/to/client/folder
+> cd <path-to-client-folder>
 > pub get
 
 # start the development server (default port: 8080)
