@@ -36,9 +36,7 @@ The server-side application uses [Composer](https://getcomposer.org/) as package
 ```
 
 Finally, test it in your browser:
-```text
-http://yourdomain/<path-to-server-folder>/list.php
-```
+`http://yourdomain/<path-to-server-folder>/list.php`
 
 If all went well, you will see an XML document showing the list of table recods.
 
