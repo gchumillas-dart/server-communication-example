@@ -8,7 +8,7 @@ This application is divided in two parts: a server-side application written in P
 
 # Requirements
 
-You need to be familiar with PHP applications and have a LAMP server installed in your host machine (Linux + Apache 2 + MySQL + PHP 5). Also install the [Dart SDK](https://www.dartlang.org/tools/sdk/) software and the [Dartium](https://www.dartlang.org/tools/dartium/) browser. You can follow the instrucctions of the next tutorial:
+You need to be familiar with PHP applications and have a LAMP server installed in your host machine (Linux + Apache 2 + MySQL + PHP 5). They can be easily installed from your package manager (yum, apt-get or synaptic). Also install the [Dart SDK](https://www.dartlang.org/tools/sdk/) software and the [Dartium](https://www.dartlang.org/tools/dartium/) browser. You can follow the instrucctions of the next tutorial:
 
 https://github.com/soloproyectos-docs/google-dart
 
