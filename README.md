@@ -12,6 +12,7 @@ This application is divided in two parts: a server-side application written in P
 Create a MySQL datatabase and import the database.sql script included in this repository. You can do this from any MySQL interface, like phpMyAdmin, or directly from command line:
 
 ```bash
+# creates the database tables
 > mysql your_database -u root -p < database.sql
 ```
 
