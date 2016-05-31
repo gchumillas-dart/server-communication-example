@@ -26,9 +26,10 @@ Create a MySQL datatabase and import the database.sql script included in this re
 
 The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under /var/www), copy the server/config-php file to server/config.php and change the parameters properly.
 
-The server-side application uses `composer` as package manager. Change to the server folder and install the required libraries:
+The server-side application uses `composer` as package manager. Change to the server folder and install the required PHP libraries:
 
 ```bash
+# change to the server folder and install the PHP libraries
 > cd <path-to-server-folder>
 > composer install
 ```
@@ -37,7 +38,7 @@ Finally, test it in your browser:
 
 http://yourdomain/<path-to-server-folder>/list.php
 
-If all went well, you will see an XML file showing the list of table recods.
+If all went well, you will see an XML document showing the list of table recods.
 
 ## Install the client-side application
 
@@ -49,10 +50,10 @@ Copy the client/web/config-sample.json file to client/web/config.json and change
 }
 ```
 
-Open the command line prompt, navigate to the client folder, install dependencies and start the development Dart server:
+Open the command line prompt, navigate to the client folder, install the dependencies and start the development Dart server:
 
 ```bash
-# change to client folder and gets dependencies
+# change to client folder and get dependencies
 > cd <path-to-client-folder>
 > pub get
 
