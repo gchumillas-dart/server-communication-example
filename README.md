@@ -17,7 +17,7 @@ https://github.com/soloproyectos-docs/google-dart
 Download the repository from GitHub:
 
 ```bash
-git clone https://github.com/soloproyectos-dart/server-communication-example
+> git clone https://github.com/soloproyectos-dart/server-communication-example
 ```
 
 ## Create the database
