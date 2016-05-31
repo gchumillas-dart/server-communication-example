@@ -1,5 +1,6 @@
 # Server Communication Example
-A simple web application to view, edit, insert or delete items from a database table.
+
+A simple web application to view or update records from a database table. This application uses the Router Component to navigate through different views.
 
 # Introduction
 
@@ -18,7 +19,7 @@ https://github.com/soloproyectos-docs/google-dart
 Create a MySQL datatabase and import the database.sql script included in this repository. You can do this from any MySQL interface, like phpMyAdmin, or directly from command line:
 
 ```bash
-# creates the database tables
+# creates the database structure
 > mysql your_database -u root -p < database.sql
 ```
 
