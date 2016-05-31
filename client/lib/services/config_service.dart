@@ -33,9 +33,7 @@ class ConfigService {
             port: uri.port,
             path: uri.path,
             queryParameters: uriParams.length > 0 ? uriParams : null,
-            fragment: uri.fragment != null && uri.fragment.length > 0
-                ? uri.fragment
-                : null)
+            fragment: uri.fragment.length > 0 ? uri.fragment : null)
         .toString();
   }
 
