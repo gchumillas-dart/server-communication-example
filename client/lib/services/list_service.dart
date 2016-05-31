@@ -4,24 +4,24 @@ import 'dart:html';
 import 'package:angular2/core.dart';
 import 'package:domquery/utils.dart';
 
-import 'package:list/config.dart';
 import 'package:list/entities/item_entity.dart';
+import 'package:list/services/config_service.dart';
 
 @Injectable()
 class ListService {
+  final ConfigService _config;
   String _controller = 'list.php';
 
+  ListService(this._config);
+
   Future<List<ItemEntity>> getItems() async {
-    final config = await Config.load();
-    final url = config['server'] + '/$_controller';
+    final url = await _config.getControllerUrl(_controller);
     final data = await HttpRequest.getString(url);
     return _getItemsFromData(data);
   }
 
   Future<List<ItemEntity>> deleteItem(ItemEntity item) async {
-    final config = await Config.load();
-    // TODO: url builder
-    final url = config['server'] + '/$_controller';
+    final url = await _config.getControllerUrl(_controller);
     final req = await HttpRequest
         .postFormData(url, {'action': 'delete', 'id': item.id});
     return _getItemsFromData(req.responseText);
