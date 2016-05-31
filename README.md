@@ -17,7 +17,16 @@ Create a MySQL datatabase and import the database.sql script included in this re
 
 ## Install the server-side application
 
-The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under /var/www). Copy the server/config-php file to server/config.php and change the parameters properly. Test it:
+The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under /var/www), copy the server/config-php file to server/config.php and change the parameters properly.
+
+The server-side application uses `composer` as package manager. Change to the server folder and install the required libraries:
+
+```bash
+> cd /path/to/server/folder
+> composer install
+```
+
+Finally, test it:
 
 http://yourdomain/<path-to-server-folder>/list.php
 
