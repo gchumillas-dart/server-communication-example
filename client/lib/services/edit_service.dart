@@ -15,7 +15,7 @@ class EditService {
   EditService(this._config);
 
   Future<ItemEntity> getItemById(String id) async {
-    final url = await _config.getControllerUrl(_controller);
+    final url = await _config.getControllerUrl(_controller, {'id': id});
     final data = await HttpRequest.getString(url);
     return _getItemFromData(data);
   }
