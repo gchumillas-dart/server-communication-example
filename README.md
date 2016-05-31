@@ -14,6 +14,12 @@ https://github.com/soloproyectos-docs/google-dart
 
 # Installation
 
+Download the repository from GitHub:
+
+```bash
+git clone https://github.com/soloproyectos-dart/server-communication-example
+```
+
 ## Create the database
 
 Create a MySQL datatabase and import the `database.sql` script included in this repository. You can do this from any MySQL interface, like phpMyAdmin, or directly from command line:
