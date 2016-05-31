@@ -5,6 +5,12 @@ A simple web application to view, edit, insert or delete items from a database t
 
 This application is divided in two parts: a server-side application written in PHP and a client-side application written in Dart and Angular 2. The client-side makes http requests to the server-side in order to list, insert, edit or delete records and the server-side responds by providing XML documents. Those XML documents are interpreted by the client-side and presented in the diferent views.
 
+# Requirements
+
+You need to be familiar with PHP applications and have a LAMP server installed in your host (Linux + Apache + MySQL + PHP). Also install the Dart SDK software and the Dartium browser. You can follow the instrucctions of the next tutorial:
+
+https://github.com/soloproyectos-docs/google-dart
+
 # Installation
 
 ## Create the database
