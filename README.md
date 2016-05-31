@@ -1,14 +1,14 @@
 # Server Communication Example
 
-A simple web application to view or update records from a database table. This application uses the Router Component to navigate through different views.
+A simple web application to view or update records from a database table. This application uses the [Router Component](https://angular.io/docs/dart/latest/tutorial/toh-pt5.html) to navigate through different views.
 
 # Introduction
 
-This application is divided in two parts: a server-side application written in PHP and a client-side application written in Dart and Angular 2. The client-side makes http requests to the server-side in order to list, insert, edit or delete records and the server-side responds by providing XML documents. Those XML documents are interpreted by the client-side and presented in the diferent views.
+This application is divided in two parts: a server-side application written in PHP and a client-side application written in [Dart](https://www.dartlang.org/) and [Angular 2](https://angular.io/docs/dart/latest/quickstart.html). The client-side makes http requests to the server-side in order to list, insert, edit or delete records and the server-side responds by providing XML documents. Those XML documents are interpreted by the client-side and presented in the diferent views.
 
 # Requirements
 
-You need to be familiar with PHP applications and have a LAMP server installed in your host (Linux + Apache + MySQL + PHP). Also install the Dart SDK software and the Dartium browser. You can follow the instrucctions of the next tutorial:
+You need to be familiar with PHP applications and have a LAMP server installed in your host (Linux + Apache 2 + MySQL + PHP). Also install the [Dart SDK](https://www.dartlang.org/tools/sdk/) software and the [Dartium](https://www.dartlang.org/tools/dartium/) browser. You can follow the instrucctions of the next tutorial:
 
 https://github.com/soloproyectos-docs/google-dart
 
@@ -27,7 +27,7 @@ Create a MySQL datatabase and import the database.sql script included in this re
 
 The server-side is installed as a typical web application (Apache + MySQL + PHP). Place it under an accessible web folder (for example, under /var/www), copy the server/config-php file to server/config.php and change the parameters properly.
 
-The server-side application uses `composer` as package manager. Change to the server folder and install the required PHP libraries:
+The server-side application uses [composer](https://getcomposer.org/) as package manager. Change to the server folder and install the required PHP libraries:
 
 ```bash
 # change to the server folder and install the PHP libraries
@@ -51,7 +51,7 @@ Copy the client/web/config-sample.json file to client/web/config.json and change
 }
 ```
 
-Open the command line prompt, navigate to the client folder, install the dependencies and start the development Dart server:
+Open the command line prompt, navigate to the client folder, install the dependencies and start the [development Dart server](https://www.dartlang.org/tools/pub/cmd/pub-serve.html):
 
 ```bash
 # change to client folder and get dependencies
