@@ -51,7 +51,7 @@ Copy the client/web/config-sample.json file to client/web/config.json and change
 }
 ```
 
-Open the command line prompt, navigate to the client folder, install the dependencies and start the [development Dart server](https://www.dartlang.org/tools/pub/cmd/pub-serve.html):
+Open the command line prompt, navigate to the client folder, install the dependencies and start the development [Dart server](https://www.dartlang.org/tools/pub/cmd/pub-serve.html):
 
 ```bash
 # change to client folder and get dependencies
