@@ -25,7 +25,7 @@ class ConfigService {
       });
     }
 
-    // Returns a clone of the URL with the passed parameters
+    // Returns a clone of the URI with the passed parameters
     return new Uri(
             scheme: uri.scheme,
             userInfo: uri.userInfo,
@@ -42,6 +42,5 @@ class ConfigService {
       var data = await HttpRequest.getString('config.json');
       _config = JSON.decode(data);
     }
-    return _config;
   }
 }
