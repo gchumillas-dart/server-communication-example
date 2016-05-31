@@ -33,18 +33,16 @@ Copy the client/web/config-sample.json file to client/web/config.json and change
 }
 ```
 
-Open the command line prompt, navigate to the client folder and install dependencies:
+Open the command line prompt, navigate to the client folder, install dependencies and start the development Dart server:
 
 ```bash
-> cd /path/to/server/folder
+# change to client folder and gets dependencies
+> cd /path/to/client/folder
 > pub get
-```
 
-start the dart server:
-
-```bash
+# start the development server (default port: 8080)
 > pub serve
 ```
 
-and open the following url in your Dartium browser:
+And finally open the following url in your Dartium browser:
 http://localhost:8080
