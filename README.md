@@ -36,6 +36,7 @@ The server-side application uses [Composer](https://getcomposer.org/) as package
 ```
 
 Finally, test it in your browser:
+
 `http://yourdomain/<path-to-server-folder>/list.php`
 
 If all went well, you will see an XML document showing the list of table recods.
@@ -63,4 +64,4 @@ Open the command line prompt, navigate to the client folder, install the depende
 
 And finally open the following url in your Dartium browser:
 
-http://localhost:8080
+`http://localhost:8080`
