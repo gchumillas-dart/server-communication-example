@@ -1,6 +1,6 @@
 # Server Communication Example
 
-A simple web application to view and update records from a database table. This application uses the [Router Component](https://angular.io/docs/dart/latest/tutorial/toh-pt5.html) to navigate through different views.
+A simple web application to view and update records of a database table. This application uses the [Router Component](https://angular.io/docs/dart/latest/tutorial/toh-pt5.html) to navigate through different views.
 
 # Introduction
 
