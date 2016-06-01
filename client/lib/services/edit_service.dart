@@ -20,7 +20,7 @@ class EditService {
     return _getItemFromData(data);
   }
 
-  Future<ItemEntity> editItem(ItemEntity item) async {
+  Future<ItemEntity> saveItem(ItemEntity item) async {
     final url = await _config.getControllerUrl(_controller);
     final req = await HttpRequest.postFormData(url,
         {'id': item.id, 'title': item.title, 'description': item.description});

@@ -22,7 +22,7 @@ class EditItemComponent implements OnInit {
   }
 
   Future<Null> onSubmit() async {
-    await _editService.editItem(item);
+    await _editService.saveItem(item);
     goBack();
   }
 
