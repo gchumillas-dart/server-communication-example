@@ -4,7 +4,7 @@ A simple web application to view and update records from a database table. This 
 
 # Introduction
 
-This application is divided in two parts: a server-side application written in PHP and a client-side application written in [Dart](https://www.dartlang.org/) and [Angular 2](https://angular.io/docs/dart/latest/quickstart.html). The client-side makes HTTP requests to the server-side in order to list, insert, edit or delete records and the server-side responds by providing XML documents. Those XML documents are interpreted by the client-side and presented in the diferent views.
+The application is divided in two parts: a server-side application written in PHP and a client-side application written in [Dart](https://www.dartlang.org/) and [Angular 2](https://angular.io/docs/dart/latest/quickstart.html). The client-side makes HTTP requests to the server-side in order to list, insert, edit or delete records and the server-side responds by providing XML documents. Those XML documents are interpreted by the client-side and presented in the diferent views.
 
 # Requirements
 
