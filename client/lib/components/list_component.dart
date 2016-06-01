@@ -13,7 +13,7 @@ class ListComponent implements OnInit {
   final Router _router;
   List<ItemEntity> items;
 
-  ListComponent(this._listService, this._router) {}
+  ListComponent(this._listService, this._router);
 
   Future<Null> ngOnInit() async {
     items = await _listService.getItems();
