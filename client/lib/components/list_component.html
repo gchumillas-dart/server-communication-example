@@ -1,10 +1,10 @@
 <div class="list">
-  <table border="1">
+  <table class="list">
     <thead>
       <tr>
         <td>Id</td>
         <td>Title</td>
-        <td colspan="2">
+        <td colspan="2" class="button">
           <button type="button" (click)="gotoEditItem()">
             Create
           </button>
@@ -15,12 +15,12 @@
       <tr *ngFor="let item of items">
         <td>#{{item.id}}</td>
         <td>{{item.title}}</td>
-        <td>
+        <td class="button">
           <button type="button" (click)="gotoEditItem(item)">
             Edit
           </button>
         </td>
-        <td>
+        <td class="button">
           <button type="button" (click)="deleteItem(item)">
             Delete
           </button>

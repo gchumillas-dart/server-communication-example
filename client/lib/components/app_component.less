@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/**
+ * common colors:
+ * http://paletton.com/#uid=13v0u0ka6Oi1-+m5FVVezDQiSur
+ */
+@lightColor1: #F2F9FD;
+@lightColor2: #C8E1F0;
+@lightColor3: #9AC1DA;
+@darkColor1: #6C9DBC;
+@darkColor2: #163D57;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: @darkColor2;
+  background-color: @lightColor1;
+}
+
+button {
+  background-color: @darkColor1;
+  border: none;
+  color: @lightColor1;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+button[disabled] {
+  color: @lightColor3;
+}

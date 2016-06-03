@@ -10,6 +10,9 @@ import 'package:list/services/list_service.dart';
 @Component(
     selector: 'div.app-component',
     templateUrl: 'app_component.html',
+    styleUrls: const [
+      'app_component.css'
+    ],
     directives: const [
       ROUTER_DIRECTIVES
     ],

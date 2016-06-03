@@ -1,0 +1,32 @@
+@import 'packages/list/components/app_component.less';
+
+table.list {
+  border: 1px solid @darkColor1;
+  border-collapse: collapse;
+  td {
+    padding: 3px 10px;
+  }
+  thead td {
+    background-color: @darkColor1;
+    color: @lightColor1;
+    font-weight: bold;
+  }
+  thead td.button {
+    text-align: right;
+    width: 1px;
+    padding: 3px 5px;
+  }
+  thead td button {
+    background: @darkColor2;
+  }
+  tbody tr:nth-child(odd) td {
+    background: @lightColor2;
+  }
+  tbody tr:nth-child(even) td {
+    background: @lightColor1;
+  }
+  tbody td.button {
+    width: 1px;
+    padding: 3px 5px;
+  }
+}

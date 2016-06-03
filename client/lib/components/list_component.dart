@@ -7,7 +7,10 @@ import 'package:angular2/router.dart';
 import 'package:list/entities/item_entity.dart';
 import 'package:list/services/list_service.dart';
 
-@Component(selector: 'div.list-component', templateUrl: 'list_component.html')
+@Component(
+    selector: 'div.list-component',
+    templateUrl: 'list_component.html',
+    styleUrls: const ['list_component.css'])
 class ListComponent implements OnInit {
   final ListService _listService;
   final Router _router;
