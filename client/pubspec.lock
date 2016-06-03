@@ -145,6 +145,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.7+1"
+  less_dart:
+    description:
+      name: less_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.4"
   logging:
     description:
       name: logging
