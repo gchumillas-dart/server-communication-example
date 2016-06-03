@@ -1,4 +1,5 @@
 import 'package:angular2/core.dart';
+import 'package:angular2/platform/common.dart';
 import 'package:angular2/router.dart';
 
 import 'package:list/components/edit_item_component.dart';
@@ -20,7 +21,8 @@ import 'package:list/services/list_service.dart';
       ConfigService,
       ListService,
       EditService,
-      ROUTER_PROVIDERS
+      ROUTER_PROVIDERS,
+      const Provider(LocationStrategy, useClass: HashLocationStrategy)
     ])
 @RouteConfig(const [
   const Route(
