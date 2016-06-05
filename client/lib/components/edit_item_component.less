@@ -1,3 +1,5 @@
+@import 'packages/list/components/app_component.less';
+
 div.form-group {
   width: 450px;
   div.input {
@@ -14,6 +16,14 @@ div.form-group {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+    }
+    span.info {
+      display: none;
+    }
+    span.info.warning {
+      display: inline-block;
+      color: @warningColor;
+      font-size: 12px;
     }
   }
 }

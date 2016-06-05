@@ -2,7 +2,7 @@
   <div class="form-group" *ngIf="item != null">
     <div class="input">
       <input type="text" placeholder="Title" size="30" required [(ngModel)]="item.title" ngControl="title" #title="ngForm">
-      <span [hidden]="title.valid || title.pristine">Title is required</span>
+      <span class="info" [ngClass]="{warning: !title.valid && !title.pristine}">Title is required</span>
     </div>
     <div class="input">
       <textarea placeholder="Description" [(ngModel)]="item.description" ngControl="description" #description="ngForm"></textarea>
