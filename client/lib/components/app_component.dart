@@ -9,7 +9,7 @@ import 'package:list/services/edit_service.dart';
 import 'package:list/services/list_service.dart';
 
 @Component(
-    selector: 'div.app-component',
+    selector: 'app-component',
     templateUrl: 'app_component.html',
     styleUrls: const [
       'app_component.css'

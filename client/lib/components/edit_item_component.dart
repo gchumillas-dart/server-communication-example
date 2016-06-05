@@ -8,7 +8,7 @@ import 'package:list/services/edit_service.dart';
 import 'package:list/entities/item_entity.dart';
 
 @Component(
-    selector: 'div.edit-item',
+    selector: 'edit-item-component',
     templateUrl: 'edit_item_component.html',
     styleUrls: const ['edit_item_component.css'])
 class EditItemComponent implements OnInit {

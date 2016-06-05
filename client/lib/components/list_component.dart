@@ -8,7 +8,7 @@ import 'package:list/entities/item_entity.dart';
 import 'package:list/services/list_service.dart';
 
 @Component(
-    selector: 'div.list-component',
+    selector: 'list-component',
     templateUrl: 'list_component.html',
     styleUrls: const ['list_component.css'])
 class ListComponent implements OnInit {
