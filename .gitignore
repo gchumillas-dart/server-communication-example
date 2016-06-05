@@ -19,8 +19,8 @@ doc/api/
 *.geany
 
 # Composer directories
-server/vendor
+client/server/vendor
 
 # Configuration files
-server/config.php
+client/server/config.php
 client/web/config.json
