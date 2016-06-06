@@ -1,39 +1,48 @@
 @import 'packages/list/components/app_component.less';
 
-table.list {
-  border: 1px solid @color4;
-  border-collapse: collapse;
-  td {
-    padding: 3px 10px;
+div.list {
+  display: table;
+  background: url(packages/list/components/images/loading.gif) no-repeat center;
+  min-height: 300px;
+  table {
+    visibility: hidden;
+    border: 1px solid @color4;
+    border-collapse: collapse;
+    td {
+      padding: 3px 10px;
+    }
+    thead td {
+      background-color: @color4;
+      color: @color1;
+      font-weight: bold;
+    }
+    thead td.button {
+      text-align: right;
+      width: 1px;
+      padding: 3px 5px;
+    }
+    thead td button {
+      background: @color5;
+    }
+    tbody tr:nth-child(odd) td {
+      background: @color2;
+    }
+    tbody tr:nth-child(even) td {
+      background: @color1;
+    }
+    tbody td.button {
+      width: 1px;
+      padding: 3px 5px;
+    }
+    tbody td span {
+      display: block;
+      max-width: 200px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
   }
-  thead td {
-    background-color: @color4;
-    color: @color1;
-    font-weight: bold;
-  }
-  thead td.button {
-    text-align: right;
-    width: 1px;
-    padding: 3px 5px;
-  }
-  thead td button {
-    background: @color5;
-  }
-  tbody tr:nth-child(odd) td {
-    background: @color2;
-  }
-  tbody tr:nth-child(even) td {
-    background: @color1;
-  }
-  tbody td.button {
-    width: 1px;
-    padding: 3px 5px;
-  }
-  tbody td span {
-    display: block;
-    max-width: 200px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
+}
+div.list.ready table {
+  visibility: visible;
 }
