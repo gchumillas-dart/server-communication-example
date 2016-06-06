@@ -22,6 +22,7 @@ import 'package:list/services/list_service.dart';
       ListService,
       EditService,
       ROUTER_PROVIDERS,
+      const Provider(APP_BASE_HREF, useValue: '/'),
       const Provider(LocationStrategy, useClass: HashLocationStrategy)
     ])
 @RouteConfig(const [
